@@ -1,6 +1,6 @@
 import React from 'react'
 import { getNavigationData } from '../../utils';
-import BreadcrumbItem from './BreadcrumbItem';
+import { BreadcrumbItem } from './';
 
 export default function Breadcrumbs() {
   const navigation = getNavigationData();
